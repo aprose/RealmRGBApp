@@ -5,11 +5,13 @@ struct ContentView: View {
     
     
     var body: some View {
+        
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+            
+            Color(red: /*@START_MENU_TOKEN@*/0.5/*@END_MENU_TOKEN@*/, green: /*@START_MENU_TOKEN@*/0.5/*@END_MENU_TOKEN@*/, blue: /*@START_MENU_TOKEN@*/0.5/*@END_MENU_TOKEN@*/)
+            Text("R: ??? G: ??? B: ???")
+                .padding()
+
         }
         
         
