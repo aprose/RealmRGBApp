@@ -8,7 +8,7 @@ struct RGBullsEyeApp: App {
         WindowGroup {
             ContentView()
         }
-        
     }
     
 }
+
