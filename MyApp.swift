@@ -1,7 +1,8 @@
 import SwiftUI
+import RealmSwift
 
 @main
-struct RGBullsEyeApp: App {
+struct RGBullsEyeApp: SwiftUI.App {
     
     var body: some Scene {
         
@@ -9,6 +10,8 @@ struct RGBullsEyeApp: App {
             ContentView()
         }
     }
+    
+    
     
 }
 
